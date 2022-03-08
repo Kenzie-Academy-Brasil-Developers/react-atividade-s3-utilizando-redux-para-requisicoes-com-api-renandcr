@@ -1,7 +1,7 @@
 import "./App.css";
 import DigimonList from "./components/DigimonList";
 import Search from "./components/Search";
-import SectionMain from "./components/DigimonList/styled";
+import DivMain from "./components/DigimonList/styled";
 
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
@@ -21,10 +21,10 @@ function App() {
         pauseOnHover
       />
       <header className="App-header">
-        <SectionMain>
+        <DivMain>
           <DigimonList />
           <Search />
-        </SectionMain>
+        </DivMain>
       </header>
     </div>
   );

@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const SectionMain = styled.section`
+const DivMain = styled.div`
   background-color: #a5a5af;
   padding: 15px 0 0 0;
   display: flex;
@@ -13,4 +13,4 @@ const SectionMain = styled.section`
     padding: 0;
   }
 `;
-export default SectionMain;
+export default DivMain;
