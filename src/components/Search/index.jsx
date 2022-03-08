@@ -5,13 +5,10 @@ import { ContainerSearch } from "./styled";
 
 const Search = () => {
   const [input, setInput] = useState("");
-  // const [error, setError] = useState(false);
   const dispatch = useDispatch();
 
   const handleSearch = () => {
-    // setError(false);
     dispatch(addDigimonsThunk(input));
-    // setInput("")
   };
 
   return (
